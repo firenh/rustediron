@@ -4,16 +4,16 @@
   "version": "${version}",
 
   "name": "Rusted Iron",
-  "description": "Iron blocks will now rust, similar to copper. Also adds in new iron building blocks!",
+  "description": "Iron blocks will now rust, similar to copper. Also adds in new iron building blocks such as stairs and slabs!",
   "authors": [
     "FireNH"
   ],
   "contact": {
-    "homepage": "*",
-    "sources": "*"
+    "homepage": "https://github.com/firenh",
+    "sources": "https://github.com/firenh/rustediron"
   },
 
-  "license": "CC0-1.0",
+  "license": "LGPL-3.0",
   "icon": "assets/rusted_iron/icon.png",
 
   "environment": "*",
