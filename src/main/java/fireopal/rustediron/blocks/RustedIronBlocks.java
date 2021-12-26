@@ -90,39 +90,39 @@ public class RustedIronBlocks {
         return register(id, 
             new RustableBlock(rustLevel, 
                 AbstractBlock.Settings.of(Material.METAL, getMapColorFromRustLevel(rustLevel))
-                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.STONE)));
+                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL)));
     }
 
     private static Block registerRustableStairsBlock(String id, Block baseBlock, Rustable.RustLevel rustLevel) {
         return register(id, 
             new RustableStairsBlock(rustLevel, baseBlock.getDefaultState(),
                 AbstractBlock.Settings.of(Material.METAL, getMapColorFromRustLevel(rustLevel))
-                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.STONE)));
+                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL)));
     }
 
     private static Block registerRustableSlabBlock(String id, Rustable.RustLevel rustLevel) {
         return register(id, 
             new RustableSlabBlock(rustLevel, 
                 AbstractBlock.Settings.of(Material.METAL, getMapColorFromRustLevel(rustLevel))
-                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.STONE)));
+                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL)));
     }
 
     private static Block registerWaxedBlock(String id, RustLevel rustLevel) {
         return register(id, 
             new Block(AbstractBlock.Settings.of(Material.METAL, getMapColorFromRustLevel(rustLevel))
-                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.STONE)));
+                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL)));
     }
 
     private static Block registerWaxedStairsBlock(String id, Block baseBlock, RustLevel rustLevel) {
         return register(id, 
             new ModStairsBlock(baseBlock.getDefaultState(),
                 AbstractBlock.Settings.of(Material.METAL, getMapColorFromRustLevel(rustLevel))
-                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.STONE)));
+                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL)));
     }
 
     private static Block registerWaxedSlabBlock(String id, RustLevel rustLevel) {
         return register(id, 
             new SlabBlock(AbstractBlock.Settings.of(Material.METAL, getMapColorFromRustLevel(rustLevel))
-                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.STONE)));
+                .requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL)));
     }
 }
