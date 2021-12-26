@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "exposed_iron_slab",
+	"pattern": [
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "rusted_iron:exposed_iron"
+		}
+	},
+	"result": {
+		"item": "rusted_iron:exposed_iron_slab",
+		"count": 6
+	}
+}

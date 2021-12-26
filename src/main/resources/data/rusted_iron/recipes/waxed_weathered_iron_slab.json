@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "weathered_iron_slab",
+	"pattern": [
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "rusted_iron:waxed_weathered_iron"
+		}
+	},
+	"result": {
+		"item": "rusted_iron:waxed_weathered_iron_slab",
+		"count": 6
+	}
+}

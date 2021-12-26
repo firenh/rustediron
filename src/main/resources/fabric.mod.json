@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "rusted_iron",
+  "version": "${version}",
+
+  "name": "Rusted Iron",
+  "description": "Iron blocks will now rust, similar to copper. Also adds in new iron building blocks!",
+  "authors": [
+    "FireNH"
+  ],
+  "contact": {
+    "homepage": "*",
+    "sources": "*"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/rusted_iron/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fireopal.rustediron.RustedIron"
+    ]
+  },
+  "mixins": [
+    "rustediron.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

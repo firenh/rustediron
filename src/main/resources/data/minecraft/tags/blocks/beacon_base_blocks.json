@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "rusted_iron:exposed_iron",
+        "rusted_iron:weathered_iron",
+        "rusted_iron:rusted_iron",
+        "rusted_iron:waxed_iron_block",
+        "rusted_iron:waxed_exposed_iron",
+        "rusted_iron:waxed_weathered_iron",
+        "rusted_iron:waxed_rusted_iron"
+    ]
+}
