@@ -8,6 +8,14 @@
   "authors": [
     "FireNH"
   ],
+  "contributors": [
+    {
+      "name": "Toilet-Man",
+      "contact": {
+        "homepage": "https://github.com/Toilet-Man"
+      }
+    }    
+  ],
   "contact": {
     "homepage": "https://github.com/firenh",
     "sources": "https://github.com/firenh/rustediron"
