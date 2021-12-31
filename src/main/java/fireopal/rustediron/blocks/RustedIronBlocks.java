@@ -8,7 +8,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
 import net.minecraft.block.SlabBlock;
-import net.minecraft.block.StairsBlock;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.registry.Registry;
 

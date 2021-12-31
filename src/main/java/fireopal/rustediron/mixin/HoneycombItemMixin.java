@@ -5,7 +5,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import fireopal.rustediron.items.AxeItemMixinHelper;
 import fireopal.rustediron.items.HoneycombItemMixinHelper;
 import net.minecraft.item.HoneycombItem;
 import net.minecraft.item.ItemUsageContext;

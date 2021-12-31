@@ -11,7 +11,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Degradable;
-import net.minecraft.item.AxeItem;
 
 public interface Rustable extends Degradable<Rustable.RustLevel> {
     public static final Supplier<BiMap<Block, Block>> RUST_LEVEL_INCREASES = 
