@@ -10,6 +10,8 @@ Iron also has new slab and stair variants which can also rust, be waxed, and be 
 
 All iron blocks (waxed and not) can also be converted back into nine iron ingots through crafting.
 
+Requires Fabric API
+
 ## Contributions
 
 Thank you to Toilet-Man on GitHub (https://github.com/Toilet-Man) for providing shader support! This change adds appropriate shininess to the rusted iron textures in shaders such as SEUS PTGI. 
